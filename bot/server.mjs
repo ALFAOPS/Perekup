@@ -6,7 +6,7 @@ const TOKEN = process.env.BOT_TOKEN;
 if (!TOKEN) { console.error('Нет BOT_TOKEN'); process.exit(1); }
 
 const GAME_URL = 'https://alfaops.github.io/Perekup/';
-const PROMO_URL = 'https://alfaops.github.io/Perekup/promo.png';
+const PROMO_URL = 'https://alfaops.github.io/Perekup/promo.png?v=2';
 
 const playButton = (text = '🎮 Играть') => ({ inline_keyboard: [[{ text, web_app: { url: GAME_URL } }]] });
 
