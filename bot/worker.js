@@ -5,7 +5,7 @@
 //   WEBHOOK_SECRET — любая длинная строка из букв и цифр (тип Secret)
 
 const GAME_URL = 'https://alfaops.github.io/Perekup/';
-const PROMO_URL = 'https://alfaops.github.io/Perekup/promo.png?v=2';
+const PROMO_URL = 'https://alfaops.github.io/Perekup/welcome.png';
 
 const playButton = (text = '🎮 Играть') => ({
   inline_keyboard: [[{ text, web_app: { url: GAME_URL } }]],
