@@ -45,7 +45,8 @@ WantedBy=multi-user.target
 EOF
 
 systemctl daemon-reload
-systemctl enable --now perekup-bot
+systemctl enable perekup-bot
+systemctl restart perekup-bot
 sleep 3
 systemctl --no-pager status perekup-bot | head -n 12
 echo
